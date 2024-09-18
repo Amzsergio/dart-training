@@ -30,6 +30,16 @@ void orderPizza(
 }) {}
 
 //6. Higher-Order Functions (Passing Functions as Arguments)
+// Así se ejecuta desde main:
+//
+// void main() {
+//   int add(int a, int b) => a + b;
+//   int subtract(int a, int b) => a - b;
+
+//   functions.Operation()
+//       .performOperation(numberOne: 15, numberTwo: 2, operation: subtract);
+// }
+
 class Operation {
   void performOperation({
     required int numberOne,
