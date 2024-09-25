@@ -28,3 +28,15 @@ Function counter2 = makeCounter();
 //   print(counter2());
 //   print(counter2());
 // }
+
+Function makeGreeting(String greeting) {
+  return (name) => '$greeting $name';
+}
+
+final englishGreeting = makeGreeting("what's up");
+final spanishGreeting = makeGreeting('Q hubo');
+
+void test() {
+  print(englishGreeting('sergio'));
+  print(spanishGreeting('sergio'));
+}
