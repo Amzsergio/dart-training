@@ -1,5 +1,5 @@
-import 'package:dart_documentation_practice/closures.dart';
+import 'package:dart_documentation_practice/tear_offs.dart';
 
 void main() {
-  test();
+  showNumbers();
 }
